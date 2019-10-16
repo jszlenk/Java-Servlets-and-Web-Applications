@@ -1,6 +1,6 @@
 # Java Servlets and Web Applications
 
-![alt text](Servlets/docs/images/logosda.png)
+![SDA](ServletsAndJavaServerPages/docs/images/logosda.png)
 
 ### Module "Technologia JSP i Servlety" for Software Development Academy
 
