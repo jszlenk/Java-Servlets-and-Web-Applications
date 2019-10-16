@@ -1,0 +1,9 @@
+
+HTTP Request Get
+Ręcznie dodać war do servera lub zbudować folder projektu, następnie go dodać do servera /ROOT
+
+Zadania:
+Napisać logowanie po sesji uzywając filtra
+Napisać wielojęzyczną stronę po sesji i po ciastkach
+
+
