@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Welcome</title>
+</head>
+</html>
+<body>
+<form id="form1" method="post" action="/JSP/ResponderTwo">
+	<table style="width:100%">
+		<tr>
+			<td style="width:100%" align="center">
+				<h1>Welcome to the Servlet</h1>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h3>What would you like to do today?</h3>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<label for="menuChoice"></label><select id="menuChoice" name="menuChoice">
+				<option id="1" value="1">
+					List Cities
+				</option>
+				<option id="2" value="2">
+					Add a new city
+				</option>
+				<option id="3" value="3">
+					Delete a city
+				</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="checkbox" name="adminOptions" id="optionDatabase" value="useDB"/><label for="optionDatabase">
+				Use Database</label>Use Database<br>
+				<input type="checkbox" name="adminOptions" id="optionEmail" value="sendEmail"/><label for="optionEmail">
+				Send Confirmation</label>Send Confirmation<br>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input name="chooser" type="submit" value="Choose"/>
+			</td>
+		</tr>
+	</table>
+</form>
+</body>
