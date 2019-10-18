@@ -1,9 +1,35 @@
 
-HTTP Request Get
+HTTP Request Get czyli dodać plik z żądaniem
 Ręcznie dodać war do servera lub zbudować folder projektu, następnie go dodać do servera /ROOT
 
 Zadania:
 Napisać logowanie po sesji uzywając filtra
 Napisać wielojęzyczną stronę po sesji i po ciastkach
 
+contexservlet:
 
+    <servlet>
+        <servlet-name>Servletparameters</servlet-name>
+        <servlet-class>servlets.contextservlet.ServletParameters</servlet-class>
+        <init-param>
+            <param-name>secretCode</param-name>
+            <param-value>xxx-xxx-xxx</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletparameters</servlet-name>
+        <url-pattern>/ServletParameters/secretCode</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>DB</param-name>
+        <param-value>jdbc:mysql://localhost:8080</param-value>
+    </context-param>
+
+treadsafe:
+
+    <context-param>
+        <param-name>initial</param-name>
+        <param-value>2</param-value>
+    </context-param>
+
+session wymaga Login.html

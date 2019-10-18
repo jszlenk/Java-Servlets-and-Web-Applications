@@ -10,6 +10,10 @@
 - [Redirect](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/redirect)
 - [Dispatcher](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/blob/master/ServletsAndJavaServerPages/src/servlets/dispatcher/DispatcherServlet.java)
 - [Responder](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/blob/master/ServletsAndJavaServerPages/src/servlets/responder/ResponderServlet.java)
+- [Request Attributes](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/requestattributes)
+- [Context Servlet](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/contextservlet)
+- [ThreadSafe](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/threadsafe)
+- [Session](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/session)
 
 
 #### JavaServer Pages examples
