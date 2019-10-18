@@ -1,4 +1,4 @@
-package encodeurl;
+package servlets.encodeurl;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
