@@ -31,7 +31,7 @@ public class EncodeServlet extends HttpServlet {
         }
 
         if (!authorized) {
-            response.sendRedirect(response.encodeRedirectURL("Login.html"));
+            response.sendRedirect(response.encodeRedirectURL("loginSession.html"));
         } else {
             response.sendRedirect(response.encodeRedirectURL("/Destination"));
         }
