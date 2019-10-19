@@ -20,7 +20,3 @@ GET http://localhost:8080/Destination
     client.log("Servlety")
 %}
 ###
-
-GET http://localhost:8080/InvalidateSession
-
-###
