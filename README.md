@@ -14,6 +14,8 @@
 - [Context Servlet](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/contextservlet)
 - [ThreadSafe](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/threadsafe)
 - [Session](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/session)
+- [Encode Redirect](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/encodeurl)
+- [Cookies](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/cookie)
 
 
 #### JavaServer Pages examples

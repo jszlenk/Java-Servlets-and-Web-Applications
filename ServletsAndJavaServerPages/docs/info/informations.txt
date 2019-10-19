@@ -32,4 +32,4 @@ treadsafe:
         <param-value>2</param-value>
     </context-param>
 
-session wymaga Login.html
+session wymaga loginSession.html
