@@ -33,7 +33,7 @@ public class Authorized extends HttpServlet {
         }
 
         if (!authorized) {
-            response.sendRedirect("Login.html");
+            response.sendRedirect("loginSession.html");
         } else {
             response.sendRedirect("/Destination");
         }

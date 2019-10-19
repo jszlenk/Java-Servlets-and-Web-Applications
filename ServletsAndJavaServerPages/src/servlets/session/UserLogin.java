@@ -22,7 +22,7 @@ public class UserLogin extends HttpServlet {
         session.setAttribute("userAuthLevel", authLevel);
 
         if (authLevel < 1 || uid == null || uid == "") {
-            response.sendRedirect("Login.html");
+            response.sendRedirect("loginSession.html");
         } else {
             response.sendRedirect("/Destination");
         }

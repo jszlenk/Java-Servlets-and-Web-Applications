@@ -21,6 +21,6 @@ public class InvalidateSession extends HttpServlet {
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
         PrintWriter out = response.getWriter();
-        out.println("<html><body><span>Session invalidated, please login again: <a href='/Login.html'>Login</a><span></body></html>");
+        out.println("<html><body><span>Session invalidated, please login again: <a href='/loginSession.html'>Login</a><span></body></html>");
     }
 }
