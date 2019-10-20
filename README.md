@@ -18,6 +18,7 @@
 - [Cookies](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/cookie)
 - [JDBC](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/jdbc)
 - [Context Listener](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/contextlistener)
+- [Session Listener](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/sessionlistener)
 
 
 #### JavaServer Pages examples
