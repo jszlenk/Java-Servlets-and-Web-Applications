@@ -1,4 +1,4 @@
-package servlets.jdbc;
+package servlets.contextlistener;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,18 +10,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/ListAllCities")
-public class ListAllCities extends HttpServlet {
+import servlets.jdbc.ManagerDB;
+
+@WebServlet("/ListAllCitiesTwo")
+public class ListAllCitiesTwo extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String user = getServletContext().getInitParameter("user");
-        String password = getServletContext().getInitParameter("password");
-        String database = getServletContext().getInitParameter("database");
-
-        ConnectionBehavior connectionBehavior = new ServerConnection(user, password, database);
-
-        ManagerDB managerDB = new ManagerDB(connectionBehavior);
+        ManagerDB managerDB = (ManagerDB) getServletContext().getAttribute("managerDB");
         StringBuilder stringBuilder = new StringBuilder("<html><body>");
 
         try {
@@ -33,8 +29,7 @@ public class ListAllCities extends HttpServlet {
 
             stringBuilder.append("<table border=1><thead><tr><th>Id</th><th>Name</th><th>CountryCode</th><th>District</th><th>Population</th></tr></thead>");
 
-            String query = "select * from city";
-
+            String query = Queries.getCities();
             ResultSet resultSet = managerDB.ExecuteResultSet(query);
 
             while (resultSet.next()) {
@@ -50,7 +45,6 @@ public class ListAllCities extends HttpServlet {
             }
 
             stringBuilder.append("</table>");
-
         } catch (Exception e) {
             stringBuilder.append("<h1>ERROR: ").append(e.getMessage()).append("</h1>");
         }

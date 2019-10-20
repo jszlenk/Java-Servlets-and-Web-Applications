@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class ServerConnection extends UserDB implements ConnectionBehavior {
 
-    ServerConnection(String user, String password, String database) {
+    public ServerConnection(String user, String password, String database) {
         super(user, password, database);
     }
 

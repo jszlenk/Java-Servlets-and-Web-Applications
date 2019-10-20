@@ -2,49 +2,50 @@ package servlets.jdbc;
 
 import java.sql.*;
 
-class ManagerDB {
+public class ManagerDB {
 
     private Connection connection = null;
     private ConnectionBehavior connectionBehavior;
 
-    ManagerDB(ConnectionBehavior connectionBehavior) {
+    public ManagerDB(ConnectionBehavior connectionBehavior) {
         this.connectionBehavior = connectionBehavior;
     }
 
-    boolean openConnection() {
+    public boolean openConnection() {
         try {
             if (connectionBehavior == null) {
                 throw new IllegalArgumentException("Define a connection behavior");
             }
             if (connection != null) {
-            	closeConnection();
+                closeConnection();
             }
-			connection = connectionBehavior.getConnection();
+            connection = connectionBehavior.getConnection();
         } catch (Exception e) {
             e.printStackTrace();
-            return false;
+            return true;
         }
-		return connection != null;
-	}
 
-	private void closeConnection() {
+        return connection == null;
+    }
+
+    public void closeConnection() {
         try {
             if (connection != null) {
                 if (!connection.isClosed()) {
-					connection.close();
+                    connection.close();
                 }
-				connection = null;
+                connection = null;
             }
         } catch (Exception ex) {
             ex.printStackTrace();
-		}
-	}
+        }
+    }
 
-    boolean isConnected() {
+    public boolean isConnected() {
         return connection != null;
     }
 
-    ResultSet ExecuteResultSet(String query) throws SQLException {
+    public ResultSet ExecuteResultSet(String query) throws SQLException {
         PreparedStatement preparedStatement = connection.prepareStatement(query);
         return preparedStatement.executeQuery();
     }
