@@ -1,4 +1,4 @@
-package servlets.db;
+package servlets.jdbc;
 
 import java.io.IOException;
 import java.io.PrintWriter;

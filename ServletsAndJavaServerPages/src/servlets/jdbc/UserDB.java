@@ -1,4 +1,4 @@
-package servlets.db;
+package servlets.jdbc;
 
 abstract class UserDB {
 
