@@ -51,3 +51,30 @@ Do web.xml dodajemy:
          <param-value>world</param-value>
      </context-param>
 
+
+contextlistener wymaga nowej sekcji w web.xml
+
+    <listener>
+        <listener-class>servlets.contextlistener.ManagerListenerDB</listener-class>
+    </listener>
+
+
+
+public interface ServletContextListener
+extends java.util.EventListener
+
+Interface for receiving notification events about ServletContext lifecycle changes.
+
+In order to receive these notification events, the implementation class must be either declared in the deployment descriptor of the web application, annotated with WebListener, or registered via one of the addListener methods defined on ServletContext.
+
+Implementations of this interface are invoked at their contextInitialized(javax.servlet.ServletContextEvent) method in the order in which they have been declared, and at their contextDestroyed(javax.servlet.ServletContextEvent) method in reverse order.
+
+public interface ServletContext
+
+Defines a set of methods that a servlet uses to communicate with its servlet container, for example, to get the MIME type of a file, dispatch requests, or write to a log file.
+
+There is one context per "web application" per Java Virtual Machine. (A "web application" is a collection of servlets and content installed under a specific subset of the server's URL namespace such as /catalog and possibly installed via a .war file.)
+
+In the case of a web application marked "distributed" in its deployment descriptor, there will be one context instance for each virtual machine. In this situation, the context cannot be used as a location to share global information (because the information won't be truly global). Use an external resource like a database instead.
+
+The ServletContext object is contained within the ServletConfig object, which the Web server provides the servlet when the servlet is initialized.

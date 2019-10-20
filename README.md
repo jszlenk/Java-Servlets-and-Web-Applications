@@ -17,6 +17,7 @@
 - [Encode Redirect](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/encodeurl)
 - [Cookies](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/cookie)
 - [JDBC](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/jdbc)
+- [Context Listener](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/servlets/contextlistener)
 
 
 #### JavaServer Pages examples
