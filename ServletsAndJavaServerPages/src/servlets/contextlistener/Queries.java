@@ -1,8 +1,8 @@
 package servlets.contextlistener;
 
-class Queries {
+public class Queries {
 
-    static String getCities() {
+    public static String getCities() {
         return "select * from city where CountryCode = 'PL' order by District ASC, Population DESC";
     }
 
