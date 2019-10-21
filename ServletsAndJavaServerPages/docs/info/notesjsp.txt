@@ -1,0 +1,8 @@
+
+Import listCites.jsp
+DBManager dbm = (DBManager)getServletContext().getAttribute("WorldDBManager");
+application --> getServletContext()
+
+Errors
+The isELIgnored attribute gives you the ability to disable the evaluation of Expression Language (EL) expressions which has been introduced in JSP 2.0.
+

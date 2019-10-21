@@ -22,3 +22,7 @@
 
 
 #### JavaServer Pages examples
+
+- [Comments](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/directive/comments)
+- [Import](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/blob/master/ServletsAndJavaServerPages/src/javaserverpages/directive/import/listCities.jsp)
+- [Errors](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/directive/errors)
