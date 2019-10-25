@@ -6,3 +6,24 @@ application --> getServletContext()
 Errors
 The isELIgnored attribute gives you the ability to disable the evaluation of Expression Language (EL) expressions which has been introduced in JSP 2.0.
 
+Dodanie przy directive.noscript
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <scripting-invalid>true</scripting-invalid>
+        </jsp-property-group>
+    </jsp-config>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/errorHandler.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/actionNotAllowed.jsp</location>
+    </error-page>
+
+
+Dodanie przy directive.declaration
+
+session false aby wyłączyć domyślnne tworzenie się sesji w JSP
