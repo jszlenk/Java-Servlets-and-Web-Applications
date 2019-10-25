@@ -1,8 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" session="false" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Credentials</title>
+    <title>Credentials Two</title>
 </head>
 <body>
 <%@ include file="header.jsp" %>
@@ -12,15 +12,7 @@
             <%@ include file="navbar.jsp" %>
         </td>
         <td style="width:75%;height:80%;">
-            <%
-                try {
-                    HttpSession s = request.getSession();
-                    String uid = (String) s.getAttribute("uid");
-                    out.println("Hello <strong>" + uid + "</strong>");
-                } catch (Exception e) {
-                    out.println("Could not access the session");
-                }
-            %>
+            <h1>Sessions aren't allowed on this page</h1>
         </td>
     </tr>
 </table>
