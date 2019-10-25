@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"
-         import="java.util.*" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="java.util.*" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -16,7 +14,7 @@
         <td style="width:75%;height:80%;">
             <%!
                 private Calendar gc = GregorianCalendar.getInstance();
-                private String hour = String.format("%s", gc.get(Calendar.HOUR));
+                private String hour = String.format("%s", gc.get(Calendar.HOUR_OF_DAY));
                 private String min = String.format("%s", gc.get(Calendar.MINUTE));
                 private String sec = String.format("%s", gc.get(Calendar.SECOND));
                 private Random r = new Random(gc.getTimeInMillis());
