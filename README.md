@@ -28,3 +28,5 @@
 - [Errors](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/directive/errors)
 - [NoScript](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/directive/noscripting)
 - [Declaration](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/directive/declaration)
+- [PageContext](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/directive/pagecontext)
+- [JavaBeans](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/javabeans)
