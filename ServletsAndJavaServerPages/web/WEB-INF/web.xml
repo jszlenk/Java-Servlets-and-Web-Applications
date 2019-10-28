@@ -54,12 +54,12 @@
         </cookie-config>
         <tracking-mode>COOKIE</tracking-mode>
     </session-config>
-    <jsp-config>
-        <jsp-property-group>
-            <url-pattern>*.jsp</url-pattern>
-            <scripting-invalid>true</scripting-invalid>
-        </jsp-property-group>
-    </jsp-config>
+<!--    <jsp-config>-->
+<!--        <jsp-property-group>-->
+<!--            <url-pattern>*.jsp</url-pattern>-->
+<!--            <scripting-invalid>true</scripting-invalid>-->
+<!--        </jsp-property-group>-->
+<!--    </jsp-config>-->
     <error-page>
         <error-code>404</error-code>
         <location>/errorHandler.jsp</location>
