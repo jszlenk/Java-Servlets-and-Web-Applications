@@ -32,3 +32,4 @@
 - [JavaBeans](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/javabeans)
 - [Properties](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/properties)
 - [Parameters](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/parameters)
+- [Expression Language](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/expressionlanguage)
