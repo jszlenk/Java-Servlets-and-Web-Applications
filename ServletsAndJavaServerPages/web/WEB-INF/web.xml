@@ -37,7 +37,7 @@
     </context-param>
     <context-param>
         <param-name>password</param-name>
-        <param-value>password</param-value>
+        <param-value>password2</param-value>
     </context-param>
     <context-param>
         <param-name>database</param-name>
