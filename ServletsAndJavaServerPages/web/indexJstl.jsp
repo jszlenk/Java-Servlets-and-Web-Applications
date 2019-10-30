@@ -7,7 +7,6 @@
 </head>
 <body>
 <c:import url="headerActions.jsp"/>
-
 <table style="width:100%;">
     <tr>
         <td style="width:25%;height:80%;" valign="top">

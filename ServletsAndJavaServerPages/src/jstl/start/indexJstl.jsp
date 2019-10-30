@@ -6,9 +6,7 @@
     <title>JSTL Start</title>
 </head>
 <body>
-<!--<jsp:include page="headerActions.jsp" />-->
-<c:import url="navbarActions.jsp"/>
-
+<c:import url="headerActions.jsp"/>
 <table style="width:100%;">
     <tr>
         <td style="width:25%;height:80%;" valign="top">
