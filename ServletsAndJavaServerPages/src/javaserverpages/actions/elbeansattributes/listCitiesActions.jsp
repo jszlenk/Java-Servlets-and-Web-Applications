@@ -1,45 +1,52 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"
          import="servlets.contextlistener.*, servlets.jdbc.*, java.sql.*" %>
+<%@ page import="javaserverpages.actions.javabeans.WebUser" %>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Welcome to Scriplets</title>
+    <title>List Cites</title>
 </head>
 <body>
-<%@ include file="header.jsp" %>
+<%@ include file="headerActions.jsp" %>
 <%!
-    private String uid = "";
-    private String pwd = "";
+    String uid = "";
+    String pwd = "";
+    ManagerDB managerDB;
+    WebUser wu;
 %>
 <%
-    if (session.getAttribute("authlevel") == null || session.getAttribute("authlevel").equals("")) {
-        RequestDispatcher rd = request.getRequestDispatcher("loginActions.jsp");
+    if (session.getAttribute("authorized_user") == null) {
+        RequestDispatcher rd = request.getRequestDispatcher("loginActions.jsp?dest=listCitiesActions");
         rd.forward(request, response);
     } else {
-        Integer authLevel = (Integer) session.getAttribute("authlevel");
+        wu = (WebUser) session.getAttribute("authorized_user");
+        Integer authLevel = (Integer) wu.getAuthLevel();
+
         if (authLevel < 1) {
-            RequestDispatcher rd = request.getRequestDispatcher("loginActions.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("loginActions.jsp?dest=listCitiesActions");
             rd.forward(request, response);
         }
-    }
-    if (session.getAttribute("uid") != null && !session.getAttribute("uid").equals("")) {
-        uid = (String) session.getAttribute("uid");
-    }
-    if (session.getAttribute("pwd") != null && !session.getAttribute("pwd").equals("")) {
-        pwd = (String) session.getAttribute("pwd");
+
+        if (wu.getUserId() != null && !wu.getUserId().equals("")) {
+            uid = wu.getUserId();
+        }
+        if (wu.getPassword() != null && !wu.getPassword().equals("")) {
+            pwd = wu.getPassword();
+        }
     }
 %>
 <%
     if (uid != null && !uid.equals("")) {
 %>
-<h1>Welcome Back <%= uid %></h1>
+<h1>Welcome Back <%= uid %>
+</h1>
 <%
     }
 %>
 <table style="width:100%;">
     <tr>
         <td style="width:25%;height:80%;" valign="top">
-            <%@ include file="navbar.jsp" %>
+            <%@ include file="navbarActions.jsp" %>
         </td>
         <td style="width:75%;height:80%;">
             <%
@@ -82,6 +89,6 @@
         </td>
     </tr>
 </table>
-<jsp:include page="footer.jsp"/>
+<jsp:include page="footerActions.jsp"/>
 </body>
 </html>
