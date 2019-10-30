@@ -26,12 +26,12 @@ public class LoginServletTwo extends HttpServlet {
         int authLevel = 1;
         s.setAttribute("authlevel", authLevel);
 
-        String destination = "listCitiesActions.jsp";
+        String destination = "listCities.jsp";
         if (request.getAttribute("dest") != null) {
             destination = (String) request.getAttribute("dest");
         }
         if (destination != null && destination.equals("listcities")) {
-            destination = "listCitiesActions.jsp";
+            destination = "listCities.jsp";
         }
 
         if (request.getParameter("rememberMe") != null) {
@@ -49,7 +49,7 @@ public class LoginServletTwo extends HttpServlet {
         }
 
         if (authLevel < 1 || uid == null || uid == "") {
-            response.sendRedirect(response.encodeRedirectURL("loginActions.jsp"));
+            response.sendRedirect(response.encodeRedirectURL("login.jsp"));
 
         } else {
             response.sendRedirect(response.encodeRedirectURL(destination));

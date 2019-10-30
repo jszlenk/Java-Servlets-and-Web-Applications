@@ -13,12 +13,12 @@
 %>
 <%
     if (session.getAttribute("authlevel") == null || session.getAttribute("authlevel").equals("")) {
-        RequestDispatcher rd = request.getRequestDispatcher("loginActions.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
         rd.forward(request, response);
     } else {
         Integer authLevel = (Integer) session.getAttribute("authlevel");
         if (authLevel < 1) {
-            RequestDispatcher rd = request.getRequestDispatcher("loginActions.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("login.jsp");
             rd.forward(request, response);
         }
     }
