@@ -33,3 +33,8 @@
 - [Properties](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/properties)
 - [Parameters](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/parameters)
 - [Expression Language](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/expressionlanguage)
+- [Expression Language With Attributes](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/javaserverpages/actions/elbeansattributes)
+
+#### JavaServer Pages Standard Tag examples
+
+- [Jstl import](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/blob/master/ServletsAndJavaServerPages/src/jstl/start/indexJstl.jsp)
