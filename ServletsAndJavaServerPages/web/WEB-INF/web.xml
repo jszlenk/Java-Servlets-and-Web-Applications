@@ -28,6 +28,14 @@
         <url-pattern>/ServletParameters/secretCode</url-pattern>
     </servlet-mapping>
     <context-param>
+        <param-name>copyright</param-name>
+        <param-value>111</param-value>
+    </context-param>
+    <context-param>
+        <param-name>weblink</param-name>
+        <param-value>http://www.google.com</param-value>
+    </context-param>
+    <context-param>
         <param-name>DB</param-name>
         <param-value>jdbc:mysql://localhost:8080</param-value>
     </context-param>
@@ -37,7 +45,7 @@
     </context-param>
     <context-param>
         <param-name>password</param-name>
-        <param-value>password2</param-value>
+        <param-value>Grove3050</param-value>
     </context-param>
     <context-param>
         <param-name>database</param-name>

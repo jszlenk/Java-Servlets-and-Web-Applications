@@ -45,7 +45,7 @@ public class LoginUser extends HttpServlet {
         }
 
         String target = ((request.getParameter("dest") == null || request.getParameter("dest").equals(""))
-                ? "indexActions.jsp" : request.getParameter("dest") + ".jsp");
+                ? "indexJstl.jsp" : request.getParameter("dest") + ".jsp");
         response.sendRedirect(target);
     }
 }
