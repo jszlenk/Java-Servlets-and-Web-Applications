@@ -15,7 +15,7 @@
         <td style="width:75%;height:80%;">
         </td>
         <td style="width:75%;height:80%;">
-            <h1><c:out value="JSTL"/></h1>
+            <h1><c:out value="Welcome to the World Manager Web System"/></h1>
 
             <c:if test="${sessionScope.authorized_user ne null}">
                 <h2><c:out value="${sessionScope.authorized_user.userId}"/></h2>

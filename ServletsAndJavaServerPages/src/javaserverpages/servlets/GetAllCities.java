@@ -47,13 +47,13 @@ public class GetAllCities extends HttpServlet {
                         allCities.add(city);
                     }
                     s.setAttribute("AllCities", allCities);
-                    target = "showAllCountriesActions.jsp";
+                    target = "listCitiesJstl.jsp";
                 } catch (Exception ex) {
                     throw new IOException("Query could not be executed for get all countries by name");
                 }
             }
         } else {
-            target = "loginActions.jsp?dest=listCountriesActions";
+            target = "loginJstl.jsp?dest=listCitiesJstl";
         }
         response.sendRedirect(target);
     }

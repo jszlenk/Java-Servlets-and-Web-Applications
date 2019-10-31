@@ -10,13 +10,13 @@
 <c:import url="headerJstl.jsp"/>
 <c:choose>
     <c:when test="${sessionScope.authorized_user eq null}">
-        <c:redirect url="loginJstl.jsp?dest=listCitiesJstl"/>
+        <c:redirect url="loginJstl.jsp?dest=listCities"/>
     </c:when>
     <c:when test="${sessionScope.authorized_user.authLevel ne 1}">
-        <c:redirect url="loginJstl.jsp?dest=listCitiesJstl"/>
+        <c:redirect url="loginJstl.jsp?dest=listCities"/>
     </c:when>
     <c:when test="${sessionScope.authorized_user.userId eq null}">
-        <c:redirect url="loginJstl.jsp?dest=listCitiesJstl"/>
+        <c:redirect url="loginJstl.jsp?dest=listCities"/>
     </c:when>
     <c:when test="${sessionScope.AllCities eq null}">
         <c:redirect url="GetAllCities"/>

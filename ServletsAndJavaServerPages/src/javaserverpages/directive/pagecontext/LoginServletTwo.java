@@ -26,12 +26,12 @@ public class LoginServletTwo extends HttpServlet {
         int authLevel = 1;
         s.setAttribute("authlevel", authLevel);
 
-        String destination = "listCities.jsp";
+        String destination = "listCitiesJstl.jsp";
         if (request.getAttribute("dest") != null) {
             destination = (String) request.getAttribute("dest");
         }
         if (destination != null && destination.equals("listcities")) {
-            destination = "listCities.jsp";
+            destination = "listCitiesJstl.jsp";
         }
 
         if (request.getParameter("rememberMe") != null) {

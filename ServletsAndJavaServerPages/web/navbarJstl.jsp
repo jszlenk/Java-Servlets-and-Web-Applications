@@ -3,4 +3,4 @@
 <a href="listCitiesJstl.jsp">View Cities</a><br>
 <a href="listCountries.jsp">View Countries</a><br>
 <a href="SignOut">Sign Out</a><br>
-<a href="clearSessionsAndCookies.jsp">Clear All User Data</a><br>
+<a href="InvalidateSessionAndRemoveCookies">Clear All User Data</a><br>
