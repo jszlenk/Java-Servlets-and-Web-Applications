@@ -38,3 +38,5 @@
 #### JavaServer Pages Standard Tag examples
 
 - [Jstl import](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/blob/master/ServletsAndJavaServerPages/src/jstl/start/indexJstl.jsp)
+- [Jstl Redirect](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/jstl/redirect)
+- [Jstl Loops](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/jstl/conditionsandloops)
