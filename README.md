@@ -42,3 +42,8 @@
 - [Jstl Loops](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/jstl/conditionsandloops)
 - [Jstl Remove](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/blob/master/ServletsAndJavaServerPages/src/jstl/remove/signoutJstl.jsp)
 - [Jstl Catch](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/jstl/catch)
+- [Jstl Predefined Tag](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/jstl/predefinedtag)
+
+#### Custom Tag Libraries examples
+
+- [Includes Tag](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/web/WEB-INF/tags)
