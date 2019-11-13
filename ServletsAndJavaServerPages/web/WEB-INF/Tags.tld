@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib version="2.0"
+        mlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+    <tlib-version>2.0</tlib-version>
+    <uri>Tags</uri>
+    <tag>
+        <description>Iteration</description>
+        <name>cityiterator</name>
+        <tag-class>tags.library.CityIterator</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>cityList</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <description>Navigation</description>
+        <name>navigator</name>
+        <tag-class>tags.library.Navigator</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+</taglib>
