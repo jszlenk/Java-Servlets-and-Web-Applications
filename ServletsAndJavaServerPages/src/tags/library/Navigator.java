@@ -38,6 +38,21 @@ public class Navigator extends SimpleTagSupport {
         nd.setLink("xxx");
         nd.setText("Clear Data");
         links.add(nd);
+
+        nd = new NavigationDetails();
+        nd.setLink("Protected/listCitiesTags.jsp");
+        nd.setText("Protected");
+        links.add(nd);
+
+        nd = new NavigationDetails();
+        nd.setLink("ProtectedTwo/listCitiesTags.jsp");
+        nd.setText("ProtectedTwo");
+        links.add(nd);
+
+        nd = new NavigationDetails();
+        nd.setLink("parameterInterceptor.jsp?interceptedparam=start");
+        nd.setText("Parameter Interceptor");
+        links.add(nd);
     }
 
     public void doTag() throws JspException, IOException {

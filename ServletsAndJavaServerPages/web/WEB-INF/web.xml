@@ -88,4 +88,12 @@
         <welcome-file>default.htm</welcome-file>
         <welcome-file>default.jsp</welcome-file>
     </welcome-file-list>
+    <filter>
+        <filter-name>AuthorizationFilter</filter-name>
+        <filter-class>filters.authorization.AuthorizationFilterTwo</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthorizationFilter</filter-name>
+        <url-pattern>/ProtectedTwo/*</url-pattern>
+    </filter-mapping>
 </web-app>
