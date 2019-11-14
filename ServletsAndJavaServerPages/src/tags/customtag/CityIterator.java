@@ -1,4 +1,4 @@
-package tags.library;
+package tags.customtag;
 
 import javaserverpages.actions.javabeans.City;
 

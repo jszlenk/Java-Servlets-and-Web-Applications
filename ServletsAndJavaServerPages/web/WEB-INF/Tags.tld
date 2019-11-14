@@ -8,7 +8,7 @@
     <tag>
         <description>Iteration</description>
         <name>cityiterator</name>
-        <tag-class>tags.library.CityIterator</tag-class>
+        <tag-class>tags.customtag.CityIterator</tag-class>
         <body-content>scriptless</body-content>
         <attribute>
             <name>cityList</name>
@@ -19,7 +19,7 @@
     <tag>
         <description>Navigation</description>
         <name>navigator</name>
-        <tag-class>tags.library.Navigator</tag-class>
+        <tag-class>tags.customtag.Navigator</tag-class>
         <body-content>scriptless</body-content>
     </tag>
 </taglib>

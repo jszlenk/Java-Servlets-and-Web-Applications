@@ -21,27 +21,28 @@
                             <span>UserName:</span>
                         </td>
                         <td>
-							<label>
-								<input name="uid" type="text" style="width:250px;" value="${cookie.credentials_uid.value}"/>
-							</label>
-						</td>
+                            <label>
+                                <input name="uid" type="text" style="width:250px;"
+                                       value="${cookie.credentials_uid.value}"/>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td>
                             <span>Password:</span>
                         </td>
                         <td>
-							<label>
-								<input name="pwd" type="password" style="width:250px;"
-									   value="${cookie.credentials_pwd.value}"/>
-							</label>
-						</td>
+                            <label>
+                                <input name="pwd" type="password" style="width:250px;"
+                                       value="${cookie.credentials_pwd.value}"/>
+                            </label>
+                        </td>
                     </tr>
                     <tr>
                         <td colspan="2" align="right">
-							<label>
-								<input name="rememberMe" type="checkbox">
-							</label>&nbsp;Remember Me
+                            <label>
+                                <input name="rememberMe" type="checkbox">
+                            </label>&nbsp;Remember Me
                         </td>
                     </tr>
                     <tr>

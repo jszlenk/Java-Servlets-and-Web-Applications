@@ -1,4 +1,4 @@
-package tags.library;
+package tags.customtag;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.tagext.*;
