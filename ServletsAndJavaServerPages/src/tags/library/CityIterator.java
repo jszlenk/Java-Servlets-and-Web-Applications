@@ -9,7 +9,7 @@ import java.util.*;
 
 public class CityIterator extends SimpleTagSupport {
 
-	private ArrayList<City> cities;
+    private ArrayList<City> cities;
 
     public void setCityList(ArrayList<City> value) {
         cities = value;

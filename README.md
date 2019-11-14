@@ -44,6 +44,9 @@
 - [Jstl Catch](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/jstl/catch)
 - [Jstl Predefined Tag](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/jstl/predefinedtag)
 
-#### Custom Tag Libraries examples
+#### Custom Tag Libraries and Filtres examples
 
 - [Includes Tag](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/web/WEB-INF/tags)
+- [Custom Tag](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/tags/library)
+- [Custom Function](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/tags/customfunctions)
+- [Filters](https://github.com/jszlenk/Java-Servlets-and-Web-Applications/tree/master/ServletsAndJavaServerPages/src/filters)
